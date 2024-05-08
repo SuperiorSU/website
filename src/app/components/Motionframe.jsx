@@ -96,22 +96,30 @@ const Motionframe = () => {
         </div>
 
       </div> */}
-      <div className="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-8 grid-cols-6 place-items-center ">
-        <div className="border-2 border-black p-2 lg:col-span-1">
+      <div className="grid lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 grid-cols-12 place-items-center ">
+        <div className=" p-2 lg:col-span-1 md:col-span-1 sm:col-span-1 col-span-1">
           <Image src="/assets/left_flower.png" alt="" width={700} height={2000} className="mt-6 mr-56"/>
         </div>
-        <div className="border-2 border-black p-2 lg:col-span-4">
-          <Image src="/assets/man.png" alt="work icons" height={isLargeScreen?2000:1500} width={1000} className=" man  "/>
+        <div className=" p-2 lg:col-span-4 md:col-span-4 sm:col-span-4 col-span-4">
+          <Image src="/assets/man.png" alt="work icons" height={isLargeScreen?2000:1500} width={1000} className=" man  mt-6"/>
         </div>
-        <div className="border-2 border-black p-2 lg:col-span-2">
-            <div className={`font-EvaMayasari font-bold flex justify-center items-center lg:text-[3rem] text-[20px] text-[#094C3B]`}>Anahata&nbsp;Connections</div>
+        <div className=" p-2 lg:col-span-2 md:lg:col-span-2 sm:col-span-2 col-span-2">
+          
+            
+            <div className={`font-EvaMayasari font-bold flex justify-center items-center lg:text-[3rem] text-[20px] text-[#094C3B]`}>
+              {/* <div>
+                <Image src="/assets/logo1.png" alt="work icons" height={200} width={200} className="logo" />
+              </div> */}
+              Anahata&nbsp;Connections
+              
+              </div>
             <div className="font-cantarell flex justify-center mb-10 items-center font-bold lg:text-lg md:text-[11px] text-[12px] text-[#094C3B]">Where Yogic love Blossoms</div>
             <div className="flex justify-center items-center text-center mt-5 "><button className=" bg-[#094C3B] meet-button  text-white rounded-[32px]">Meet Your Match Now</button></div>
         </div>
-        <div className="border-2 border-black p-2 lg:col-span-4">
-          <Image src="/assets/women.png" alt="work icons" height={2000} width={1000} className="women  md:me-0 z-[10]"/>
+        <div className=" p-2 lg:col-span-4 md:col-span-4 sm:col-span-4 col-span-4">
+          <Image src="/assets/women.png" alt="work icons" height={2000} width={1000} className="women mt-8 md:me-0 z-[10]"/>
         </div>
-        <div className="border-2 border-black p-2 lg:col-span-1">
+        <div className="p-2 lg:col-span-1 md:col-span-1 sm:col-span-1 col-span-1">
           <Image src="/assets/left_flower.png" alt="" width={700} height={2000} className="mt-6 mr-56 tranform scale-x-[-1] z-[-2]"/>
         </div>
       </div>
