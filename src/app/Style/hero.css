@@ -5,10 +5,10 @@
 @media only screen and (max-width: 600px) {
     /* Add your styles for extra small devices here */
   }
-  
+
   /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 425px) {
-    /* Add your styles for small devices here */
+  /* @media only screen and (min-width: 425px) {
+    Add your styles for small devices here
     .logo{
         position: relative;
         right: 230px;
@@ -16,16 +16,16 @@
     }
     .man{
         position: relative;
-        top: -8px;
-        right: -1px;
+        top: 17px;
+        right: -170px;
         width: 114px;
         max-width: none;
 
     }
     .women{
         position: relative;
-        top: -28px;
-        right: -27px;
+        top: 17px;
+        right: 178px;
         width: 114px ;
         max-width: none;
     }
@@ -53,8 +53,77 @@
         height: 43px;
         width: 200px;
     }
-  }
-  
+  } */
+  @media only screen and (max-width: 450px) and (min-width: 320px) {
+    .man{
+        position: relative;
+        top: 80px;
+        right: -109px;
+        width: 114px;
+        max-width: none;
+
+    }
+    .women{
+        position: relative;
+        top: 80px;
+        right: 100px;
+        width: 114px ;
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 541px) and (min-width: 451px) {
+    .man{
+        position: relative;
+        top: 57px;
+        right: -129px;
+        width: 114px;
+        max-width: none;
+
+    }
+    .women{
+        position: relative;
+        top: 50px;
+        right: 120px;
+        width: 114px ;
+        max-width: none;
+    }
+}
+@media only screen and (max-width: 639px) and (min-width: 540px) {
+    .man{
+        position: relative;
+        top: 57px;
+        right: -165px;
+        width: 114px;
+        max-width: none;
+
+    }
+    .women{
+        position: relative;
+        top: 50px;
+        right: 150px;
+        width: 114px ;
+        max-width: none;
+    }
+}
+  @media only screen and (max-width: 767px) and (min-width: 640px) {
+    .man{
+        position: relative;
+        top: 57px;
+        right: -180px;
+        width: 114px;
+        max-width: none;
+
+    }
+    .women{
+        position: relative;
+        top: 50px;
+        right: 165px;
+        width: 114px ;
+        max-width: none;
+    }
+}
+
   @media only screen and (min-width: 768px) {
     /* Add your styles for medium devices here */
     .logo{
@@ -64,43 +133,27 @@
     }
     .man{
         position: relative;
-        top: 19px;
-        right: 14px;
+        top: 50px;
+        right: -165px;
         width: 156px !important;
         max-width: none;
 
     }
     .women{
         position: relative;
-        top: 19px;
-        right: 10px;
+        top: 50px;
+        right: 155px;
         width: 156px !important;
         max-width: none;
     }
-    .flower-1{
-        position: relative;
-        left: 10px;
-        width: 40px;
-        top: -6px;
-}
-    .flower-2{
-        position: relative;
-        left: 30px;
-        width: 40px;
-        top: -6px;
-    }
+   
 
     .onspot{
         position: relative;
         right: 140px;
         margin-top: 20px;
     }
-    .meet-button{
-        position:relative;
-        top:80px;
-        height: 43px;
-        width: 200px;
-    }
+    
   }
   @media only screen and (min-width: 1024px) {
     /* Add your styles for large devices here */
@@ -112,45 +165,28 @@
     .man{
         position: relative;
         
-        top: 16px;
-        right: 21px;
+        top: 65px;
+        right: -230px;
         width: 166px;
     }
     .women{
         position: relative;
-        top: 15px;
-        left: 17px;
+        top: 65px;
+        left: -230px;
         width: 175px;
     }
-    .flower-1{
-        position: relative;
-        left: 13px;
-        width: 60px;
-        top: -6px;
-}
-    .flower-2{
-        position: relative;
-        top: 23px;
-        left: 10px;
-        width: 60px;
-    }
-
-    .onspot{
-        position: relative;
-        left: 20px;
-        margin-top: 18px;
-    }
-    .meet-button{
+    .left-flower{
         position:relative;
-        top:70px;
-        height: 43px;
-        width: 200px;
-    }
+        left: 150px;
+       }
+    .right-flower{
+        position:relative;
+        left: -150px;
+       }
 
   }
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 1440px) {
-    /* Add your styles for large devices here */
     .logo{
         position: relative;
         left: 90px;
@@ -158,36 +194,49 @@
     }
     .man{
         position: relative;
-        top: 8px;
-        left: 16px;
+        top: 70px;
+        left: 370px;
         width: 195px;
     }
     .women{
         position: relative;
-        top: 8px;
-        left: 12px;
+        top: 70px;
+        left: -370px;
         width: 195px;
     }
-    .flower-1{
-        position: relative;
-        top: 2px;
-        left: 10px;
+   .left-flower{
+    position:relative;
+    left: 220px;
+   }
 
-     width: 60px;}
-    .flower-2{
-        position: relative;
-        top: 23px;
-        width: 60px;
-    }
-
+  .right-flower{
+    position:relative;
+    left: -220px;
+  }
     .onspot{
         position: relative;
         left: 150px;
         margin-top: 50px;
     }
+
+    .hero-logo{
+        position:relative;
+        top:100px;
+    }
+    
+    .anahata{
+        position: relative;
+        top:100px;
+       
+    }
+    .logic-blossoms{
+        position: relative;
+        top:100px;
+    }
+
     .meet-button{
         position:relative;
-        top:70px;
+        top:210px;
         height: 43px;
         width: 200px;
     }
