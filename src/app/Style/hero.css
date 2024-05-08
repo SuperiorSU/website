@@ -1,0 +1,201 @@
+
+/* styles.css */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Add your styles for extra small devices here */
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 425px) {
+    /* Add your styles for small devices here */
+    .logo{
+        position: relative;
+        right: 230px;
+        width: 200px;
+    }
+    .man{
+        position: relative;
+        top: -8px;
+        right: -1px;
+        width: 114px;
+        max-width: none;
+
+    }
+    .women{
+        position: relative;
+        top: -28px;
+        right: -27px;
+        width: 114px ;
+        max-width: none;
+    }
+    .flower-1{
+        position: relative;
+        left: 10px;
+        width: 40px;
+        top: -6px;
+}
+    .flower-2{
+        position: relative;
+        left: 30px;
+        width: 40px;
+        top: -6px;
+    }
+
+    .onspot{
+        position: relative;
+        right: 140px;
+        margin-top: 20px;
+    }
+    .meet-button{
+        position:relative;
+        top:80px;
+        height: 43px;
+        width: 200px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* Add your styles for medium devices here */
+    .logo{
+        position: relative;
+        right: 230px;
+        width: 200px;
+    }
+    .man{
+        position: relative;
+        top: 19px;
+        right: 14px;
+        width: 156px !important;
+        max-width: none;
+
+    }
+    .women{
+        position: relative;
+        top: 19px;
+        right: 10px;
+        width: 156px !important;
+        max-width: none;
+    }
+    .flower-1{
+        position: relative;
+        left: 10px;
+        width: 40px;
+        top: -6px;
+}
+    .flower-2{
+        position: relative;
+        left: 30px;
+        width: 40px;
+        top: -6px;
+    }
+
+    .onspot{
+        position: relative;
+        right: 140px;
+        margin-top: 20px;
+    }
+    .meet-button{
+        position:relative;
+        top:80px;
+        height: 43px;
+        width: 200px;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    /* Add your styles for large devices here */
+    .logo{
+        position: relative;
+        right: 73px;
+        width: 200px;
+    }
+    .man{
+        position: relative;
+        
+        top: 16px;
+        right: 21px;
+        width: 166px;
+    }
+    .women{
+        position: relative;
+        top: 15px;
+        left: 17px;
+        width: 175px;
+    }
+    .flower-1{
+        position: relative;
+        left: 13px;
+        width: 60px;
+        top: -6px;
+}
+    .flower-2{
+        position: relative;
+        top: 23px;
+        left: 10px;
+        width: 60px;
+    }
+
+    .onspot{
+        position: relative;
+        left: 20px;
+        margin-top: 18px;
+    }
+    .meet-button{
+        position:relative;
+        top:70px;
+        height: 43px;
+        width: 200px;
+    }
+
+  }
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1440px) {
+    /* Add your styles for large devices here */
+    .logo{
+        position: relative;
+        left: 90px;
+        width: 200px;
+    }
+    .man{
+        position: relative;
+        top: 8px;
+        left: 16px;
+        width: 195px;
+    }
+    .women{
+        position: relative;
+        top: 8px;
+        left: 12px;
+        width: 195px;
+    }
+    .flower-1{
+        position: relative;
+        top: 2px;
+        left: 10px;
+
+     width: 60px;}
+    .flower-2{
+        position: relative;
+        top: 23px;
+        width: 60px;
+    }
+
+    .onspot{
+        position: relative;
+        left: 150px;
+        margin-top: 50px;
+    }
+    .meet-button{
+        position:relative;
+        top:70px;
+        height: 43px;
+        width: 200px;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Add your styles for extra large devices here */
+
+  }
+  

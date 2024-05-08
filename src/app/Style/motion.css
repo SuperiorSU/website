@@ -1,0 +1,12 @@
+.man, .women{
+    height: 500px;
+    min-width: max-content;
+}
+.man{
+    margin-right: 20%;
+}
+@media only screen and (max-width: 1024px) {
+    .man, .women{
+
+    }
+}
